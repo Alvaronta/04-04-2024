@@ -1,0 +1,39 @@
+.container{
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.caja{
+    border: 5px solid black;
+    text-align: center;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    background-color: steelblue;
+    transition: all .5s ease-in-out;
+    box-shadow: 10px 10px 18px 2px rgba(0,0,0,0.75);
+}
+
+.caja:hover{
+    background-color: white;
+    color: blue;
+   /* transform: rotate(45deg); */
+   /* transform: scale(1.1);*/
+   /* transform: skew(45deg); */
+    transform: translate(40px, 40px);
+    cursor: pointer;
+}
+
+.caja:active{
+    background-color: green;
+}
